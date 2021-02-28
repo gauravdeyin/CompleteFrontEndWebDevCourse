@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,800;0,900;1,100;1,700;1,800&display=swap');
+
+body {
+    background: #00aa00;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400 !important;
+    font-style: italic;
+}
+
+body h1 {
+    font-weight: 900;
+    margin: 5px;
+}
+
+#main-header{
+    border:5px dashed #000;
+    margin: 30px 30px 30px 30px;     /* syntax margin: Top Right Bottom Left*/
+}
+
+h3{
+    color: #000
+}
+
+body h2{
+    color: rgba(0, 119, 255, 0.767);
+}
+
+body > footer{
+        font: xx-large;
+        font-style: oblique, bold;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    display: inline-block;
+    height: 50px;
+    margin: 10px;
+    line-height: 60px;
+    float: left;
+    padding: 40px;
+}
+
+#main-video{
+    width: 900px;
+    margin: auto;
+    color: white;
+    border-style: dashed;
+}
+
+article{
+    max-width: 33%;
+    display: inline-block;
+}
+
+article img {
+    max-width: 50%;
+}
+
+.article-image{
+    height: 50;
+    background-position: center;
+}

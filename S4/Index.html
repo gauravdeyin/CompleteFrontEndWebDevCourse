@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Learning forms in HTML!!">
+        <meta name="keywords" content="HTML5, html5, html forms, udemy, learning">
+    
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Gaurav Dey">
+
+        <link rel="stylesheet" href="css/style.css" />
+    
+        <title>My Document/Title</title>
+    </head>
+
+<body>
+
+    <header id="main-header">
+        <h1>
+            Best News Ever!
+        </h1>
+    </header>
+
+    <p>
+        Want to hear some great News? listen to us!
+    </p>
+
+
+    <h1>Best Pizza Ever!</h1>
+    
+    <h3> 
+        <i> Come and get some yummy pizzas! </i>
+    </h3>
+    
+    <section id="contact-form">
+    
+        <h2>Place Order</h2>
+
+        <form method="POST" action="place-order.php"> 
+
+            <h4> Delivery </h4>
+            <input name="deliveryMethod" type="radio" value="delivery" /> Delivery <br /> 
+            <input name="deliveryMethod" type="radio" value="pick-up" /> Pick-up <br />    
+                
+            <h4> Address </h4> 
+            <input name="Address 1" placeholder="Address Line 1" class="lg-input" /> 
+            <input name="Address 2" placeholder="Address Line 2" class="lg-input" /> <br />
+
+            <input name="City" placeholder="City Name" class="sm-input" /> 
+            <input name="State" placeholder="State Name" class="sm-input" /> <br />
+
+            <input name="PIN" placeholder="Pin Code" class="sm-input" /> <br />
+
+            <h4> Size </h4>
+                <select name="size">
+                    <option value="8"> 8" - Rs.175.00</option>
+                    <option value="12"> 12" - Rs.250.00</option>
+                    <option value="14"> 14" - Rs.350.00</option>
+                    <option value="16"> 12" - Rs.450.00</option>
+                    <option value="18"> 18" - Rs.550.00</option>
+                    <option value="20"> 20" - Rs.650.00</option>
+                </select>
+
+            <h4> Ingredients </h4>
+            <input name="" type="checkbox" value="pepperoni"/> Pepperoni <br />
+            <input name="ingredient" type="checkbox" value="salami"/> Salami <br />
+            <input name="ingredient" type="checkbox" value="bacon"/> Bacon <br />
+            <input name="ingredient" type="checkbox" value="chicken"/> Chicken <br />
+            <input name="ingredient" type="checkbox" value="sausage"/> Sausage <br />
+            <input name="ingredient" type="checkbox" value="pork"/> Pork <br />
+            <input name="ingredient" type="checkbox" value="green peppers"/> Green Peppers <br />
+            <input name="ingredient" type="checkbox" value="capsicum"/> Capsicum <br />
+
+            <button type="submit"> Place Order</button>
+
+        </form>
+    </section>
+    
+    <br/>
+    <section id="main-video">
+        <article>
+            <img src="../Images/Lord Hanuman.jpg" alt="Lord Hanuman!" height="250px" >    
+            <h3>Article 1: Puppy Is Napping!</h3>
+            <p>Little puppy is taking a nap & will wake up soon.</p>
+        </article>
+        
+        <article>
+            <img src="../Images/Lord Hanuman.jpg" alt="Lord Hanuman!" height="250px">    
+            <h3>Article 2: Do we put the "<footer>" inside "<body>"?</h3>
+            <p>Beside the main section, defined by the <body> element, section limits are defined either explicitly or implicitly.</p>
+        </article>
+        <br />
+        <video width="540px" height="320px" controls>
+            <source src="./Videos/production ID_4104890.mp4" type="video/mp4">
+            <source src="./Videos/production ID_4104890.mp4" type="video/ogg">
+            Your browser doesnot support HTML5.
+        </video>
+        <br />
+        <article>
+            <div class="article-image" style="background:url(/Images/Lord\ Hanuman.jpg)" ></div>    
+            <h3>Article 3: HAL Tejas</h3>
+            
+            <p>Tejas has a tail-less compound delta-wing configuration with a single vertical stabilizer. This provides better high-alpha performance characteristics than conventional wing designs. Its wing root leading edge has a sweep of 50 degrees, the outer wing leading edge has a sweep of 62.5 degrees, and trailing edge has a forward sweep of four degrees. It integrates technologies such as relaxed static stability, fly-by-wire flight control system, multi-mode radar, integrated digital avionics system and composite material structures. It is the smallest and lightest in its class of contemporary supersonic combat aircraft.</p>
+                        
+        </article>
+        
+        <article>
+            <div class="article-image" style="background:url(/Images/Lord\ Hanuman.jpg)" ></div>    
+            <h3>Article 4: Afterburner</h3>
+            <p>An afterburner (or reheat U.K.) is an additional combustion component used on some jet engines, mostly those on military supersonic aircraft. Its purpose is to increase thrust, usually for supersonic flight, takeoff, and combat. Afterburning injects additional fuel into a combustor in the jet pipe behind (i.e., "after") the turbine, "reheating" the exhaust gas. Afterburning significantly increases thrust as an alternative to using a bigger engine with its attendant weight penalty, but at the cost of very high fuel consumption (decreased fuel efficiency) which limits its use to short periods. This aircraft application of reheat contrasts with the meaning and implementation of reheat applicable to gas turbines driving electrical generators and which reduces fuel consumption.</p>
+        </article>
+    </section>
+    
+    <br/>
+    <section>   
+        <audio id="mysound" width="600px" controls >
+            <source src="../Audio/Ho_Gaya_Talli-Diljit_Dosanjh-www.Mp3Mad.Com.mp3" type="audio/mp3">
+            Your browser doesnot support HTML5.
+        </audio>
+    </section>
+
+    <br/>
+    <br/>
+    <footer>
+        <center> &copy; 2021 <br /> 
+            <a href="#">Terms of Service</a>
+        </center>
+    </footer>
+
+</body>
+
+</html>
